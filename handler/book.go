@@ -8,6 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
 )
+
 func RootHandler(c *gin.Context) {
 	c.JSON(http.StatusOK, gin.H{
 		"name": "andhika juliawan",
